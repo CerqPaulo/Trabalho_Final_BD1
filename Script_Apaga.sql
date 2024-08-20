@@ -1,0 +1,54 @@
+--
+-- -------- < TF2 - Eventos > --------
+--
+--                    SCRIPT DE REMOÇÃO (DML)
+--
+-- Data Criacao ...........: 24/06/2024
+-- Autor(es) ..............: Wolfgang Friedrich Stein,Raquel Ferreira Andrade, 	João Lucas Miranda de Sousa, 
+--                           Paulo Henrique Virgilio Cerqueira
+-- Banco de Dados .........: MySQL 
+-- Base de Dados (nome) ...: TF2_2A_JoaoSousa
+--
+-- PROJETO => 01 Base de Dados
+--         => 29 Tabelas
+
+-- ---------------------------------------------------------
+
+USE TF2_2A_JoaoSousa;
+
+DROP TABLE IF EXISTS ENDERECO;
+DROP TABLE IF EXISTS abastece;
+DROP TABLE IF EXISTS possui;
+DROP TABLE IF EXISTS decora;
+DROP TABLE IF EXISTS ITEM_DECORACAO;
+DROP TABLE IF EXISTS DISPLOCAL;
+DROP TABLE IF EXISTS disponibiliza;
+DROP TABLE IF EXISTS DISPDIA_SEMANA;
+DROP TABLE IF EXISTS FREELANCER;
+DROP TABLE IF EXISTS DADOBANCARIO;
+DROP TABLE IF EXISTS FICHADO;
+DROP TABLE IF EXISTS telefoneFuncionario;
+DROP TABLE IF EXISTS trabalha;
+DROP TABLE IF EXISTS FUNCIONARIO;
+DROP TABLE IF EXISTS NOTA;
+DROP TABLE IF EXISTS fornece;
+DROP TABLE IF EXISTS PRODUTO_FORNECEDOR;
+DROP TABLE IF EXISTS telefoneFornecedor;
+DROP TABLE IF EXISTS FORNECEDOR;
+DROP TABLE IF EXISTS CONTRATO;
+DROP TABLE IF EXISTS EVENTO;
+DROP TABLE IF EXISTS SALAO;
+DROP TABLE IF EXISTS tem;
+DROP TABLE IF EXISTS BUFFET;
+DROP TABLE IF EXISTS ITEM_CARDAPIO;
+DROP TABLE IF EXISTS CLIENTE_JURIDICO;
+DROP TABLE IF EXISTS CLIENTE_FISICO;
+DROP TABLE IF EXISTS telefoneCliente;
+DROP TABLE IF EXISTS CLIENTE;
+
+DROP USER 'Jonatas';
+DROP USER 'Abel';
+DROP USER 'Bianca';
+DROP USER 'Carlos';
+DROP USER 'Diana';
+
